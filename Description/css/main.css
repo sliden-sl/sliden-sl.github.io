@@ -1,0 +1,56 @@
+h2{
+	border: 10px solid green;
+	background: green;
+	color: #fff;
+}
+h1{
+	color: red;
+}
+h1, h2, p, a, button, span, ul li{
+ box-sizing: border-box;
+}
+
+.new{
+	margin-bottom: 100px;
+	color: #ffffff;
+	border: 10px solid blue;
+	background: blue;
+	width: 130px;
+}
+span{
+	color: red;
+}
+.one{
+	border: 1px solid black;
+	width: 300px;
+}
+.two{
+	border: 1px solid black;
+	width: 300px;
+}
+.three{
+	border: 1px solid black;
+	width: 300px;
+}
+body{
+	font-family: arial;
+}
+.what{
+	margin: 0px 0px 20px 100px
+}
+  h1, h2, h3, h4, h5, h5{
+  	margin: 10px;
+  }
+p{
+	margin: 15px 0px;
+	line-height: 1,3em;
+}
+.coko{
+	border: 50px solid green;
+}
+.link:hover {
+	font-size: 15px;
+}
+.vite:hover {
+	font-size: 15px;
+}
