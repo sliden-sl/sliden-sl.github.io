@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	color: black ;
 	font-size: 15px ;
 	padding: 0;
@@ -8,17 +8,25 @@ body {
 
 div, p, input, button, form, span, a, ul, li, {
 	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, span {
 	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+span {
+	font-size: 50px;
 }
 
 p {
 	line-height: 1.6em;
 }
+
+
 
 .container {
 	width: 1171px;
@@ -45,8 +53,13 @@ p {
 }
 
 .offer {
-	margin-top: 176px;
-	width: 490px;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.title {
+	font-size: 36px;
+	width: 500px;
 }
 
 .intro {
@@ -56,7 +69,7 @@ p {
 }
 
 .btn {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	background: #ffd429; 
 	color: black ;
 	border-radius: 0px;
@@ -100,10 +113,12 @@ p {
 
 .skill-title {
 	font-size: 20px;
+	margin-left: 40px;
 }
 
 .skill-text {
 	margin-top: 10px;
+	text-align: center;
 }
 
 .skill-travel {
@@ -125,25 +140,29 @@ p {
 	width: 345px;
 	border: 1px solid #e2e4e6;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	border-radius: 4px;
 	height: 57px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 .section-titles{
-	margin-bottom: 60px;
-	margin-left: 310px;
+	font-size: 25px;
+	margin-left: 400px;
+	margin-bottom: 67px;
 }
 .form {
-	margin-left: 310px;
+	width: 340px;
+	margin: 0 auto;
+	max-width: 340px;
 }
 
 .btn-form {
 	width: 345px;
 	border: 0px;
 	cursor: pointer;
-	display: block;
-	margin-left: 43px;
+	width: 100%;
 	
 }
 
@@ -156,5 +175,5 @@ p {
 	color: #ffff;
 	font-size: 14px;
 	margin: 0px;
-	margin-left: 350px; 
+	margin-left: 420px; 
 }
