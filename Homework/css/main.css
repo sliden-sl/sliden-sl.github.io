@@ -26,8 +26,6 @@ p {
 	line-height: 1.6em;
 }
 
-
-
 .container {
 	width: 1171px;
 	margin: 0 auto;
@@ -150,7 +148,7 @@ p {
 .section-titles{
 	font-size: 25px;
 	margin-left: 400px;
-	margin-bottom: 67px;
+	margin-bottom: 30px;
 }
 .form {
 	width: 340px;
@@ -176,4 +174,50 @@ p {
 	font-size: 14px;
 	margin: 0px;
 	margin-left: 420px; 
+}
+
+	/* 993px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.desktop{
+		width: 470px;
+	}
+	.credits {
+		text-align: left;
+	}
+} 
+	/* 763px - 1200px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.decktop {
+		display: block;
+		width: 650px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-right: 20px;
+	}
+	.offer {
+		width: 100%;
+	}
+	.section-title {
+		margin: auto;
+	}
+	.section-titles{
+		margin: auto;
+		margin-bottom: 30px;
+	}
+}
+	/* 577px -768px */ 
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
 }
