@@ -148,6 +148,7 @@ p {
 .section-titles{
 	font-size: 25px;
 	text-align: center;
+	margin-bottom; 30px;
 }
 .form {
 	width: 340px;
