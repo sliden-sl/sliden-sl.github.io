@@ -4,6 +4,7 @@ body {
 	font-size: 15px ;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li, {
@@ -24,6 +25,9 @@ span {
 
 p {
 	line-height: 1.6em;
+}
+.animated {
+	opacity: 0;
 }
 
 .container {
@@ -148,7 +152,7 @@ p {
 .section-titles{
 	font-size: 25px;
 	text-align: center;
-	margin-bottom; 30px;
+	margin-bottom: 30px;
 }
 .form {
 	width: 340px;
@@ -174,6 +178,9 @@ p {
 	font-size: 14px;
 	margin: 0px;
 	text-align: center;
+}
+.red {
+	color: red;
 }
 
 	/* 993px - 1200px */
